@@ -42,8 +42,8 @@ In this example, we load citation network data (Cora, Citeseer or Pubmed). The o
 ## Models
 
 You can choose between the following models: 
-* `arga_ae`: Graph Auto-Encoder (with GCN encoder)
-* `arga_vae`: Variational Graph Auto-Encoder (with GCN encoder)
+* `arga_ae`: Adversarially Regularised Graph Auto-Encoder
+* `arga_vae`: Adversarially Regularised Variational Graph Auto-Encoder 
 
 ## Cite
 
