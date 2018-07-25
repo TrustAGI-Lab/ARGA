@@ -1,0 +1,6 @@
+tensorflow
+numpy
+scikit-learn
+scipy
+networkx
+munkres
