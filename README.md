@@ -13,7 +13,7 @@ We borrowed part of code from T. N. Kipf, M. Welling, Variational Graph Auto-Enc
 ## Installation
 
 ```bash
-python setup.py install
+pip install -r requirments.txt
 ```
 
 ## Requirements
