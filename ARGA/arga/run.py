@@ -4,8 +4,8 @@ from clustering import Clustering_Runner
 from link_prediction import Link_pred_Runner
 
 
-dataname = 'cora'       # 'cora' or 'citeseer' or 'pubmed'
-model = 'arga_ae'          # 'arga_ae' or 'arga_vae'
+dataname = 'citeseer'       # 'cora' or 'citeseer' or 'pubmed'
+model = 'arga_vae'          # 'arga_ae' or 'arga_vae'
 task = 'clustering'         # 'clustering' or 'link_prediction'
 
 settings = settings.get_settings(dataname, model, task)
