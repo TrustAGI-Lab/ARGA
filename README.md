@@ -3,7 +3,7 @@ Adversarially Regularized Graph Autoencoder (ARGA)
 
 This is a TensorFlow implementation of the Adversarially Regularized Graph Autoencoder(ARGA) model as described in our paper:
  
-Pan, S., Hu, R., Long, G., Jiang, J., Yao, L., & Zhang, C. (2018). Adversarially Regularized Graph Autoencoder. arXiv preprint arXiv:1802.04407 [https://arxiv.org/abs/1802.04407].
+Pan, S., Hu, R., Long, G., Jiang, J., Yao, L., & Zhang, C. (2018). Adversarially Regularized Graph Autoencoder. arXiv preprint arXiv:1802.04407 [https://arxiv.org/abs/1802.04407], published in IJCAI 2018: 2609-2615.
 
 ![Construction of ARGA](https://github.com/Ruiqi-Hu/ARGA/blob/master/ARGA_FLOW.jpg)
 
