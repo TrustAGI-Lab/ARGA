@@ -50,10 +50,11 @@ You can choose between the following models:
 Please cite following papers if you use this code in your own work:
 
 ```
-@article{pan2018adversarially,
-  title={Adversarially Regularized Graph Autoencoder},
+@inproceedings{pan2018adversarially,
+  title={Adversarially Regularized Graph Autoencoder for Graph Embedding.},
   author={Pan, Shirui and Hu, Ruiqi and Long, Guodong and Jiang, Jing and Yao, Lina and Zhang, Chengqi},
-  journal={arXiv preprint arXiv:1802.04407},
+  booktitle={IJCAI},
+  pages={2609--2615},
   year={2018}
 }
 ```
