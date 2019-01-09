@@ -102,9 +102,6 @@ def update(model, opt, sess, adj_norm, adj_label, features, placeholders, adj):
     feed_dict = construct_feed_dict(adj_norm, adj_label, features, placeholders)
     feed_dict.update({placeholders['dropout']: FLAGS.dropout})
 
-    feed_dict.update({placeholders['dropout']: 0})
-    emb = sess.run(model.z_mean, feed_dict=feed_dict)
-
     z_real_dist = np.random.randn(adj.shape[0], FLAGS.hidden2)
     feed_dict.update({placeholders['real_distribution']: z_real_dist})
 
@@ -114,6 +111,9 @@ def update(model, opt, sess, adj_norm, adj_label, features, placeholders, adj):
     g_loss, _ = sess.run([opt.generator_loss, opt.generator_optimizer], feed_dict=feed_dict)
 
     avg_cost = reconstruct_loss
+    
+    feed_dict.update({placeholders['dropout']: 0})
+    emb = sess.run(model.z_mean, feed_dict=feed_dict)
 
     return emb, avg_cost
 
